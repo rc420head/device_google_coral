@@ -76,6 +76,7 @@ PRODUCT_PACKAGES += \
     telephony-ext
 
 TARGET_PRODUCT_PROP := $(LOCAL_PATH)/product.prop
+TARGET_VENDOR_PROP := $(LOCAL_PATH)/vendor.prop
 
 $(call inherit-product, $(LOCAL_PATH)/utils.mk)
 
